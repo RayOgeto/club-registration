@@ -156,7 +156,7 @@ export default function Home() {
                 </div>
 
                 <div className="space-y-2">
-                  <label className="text-sm font-medium text-gray-400">Grade / Year</label>
+                  <label className="text-sm font-medium text-gray-400">Year</label>
                   <select 
                     required
                     value={formData.grade}
@@ -164,10 +164,10 @@ export default function Home() {
                     className="w-full bg-white/5 border border-white/10 rounded-lg px-4 py-3 focus:outline-none focus:ring-2 focus:ring-[#00f3ff] transition-all text-gray-300"
                   >
                     <option value="" disabled>Select your grade</option>
-                    <option value="9">Freshman (9th)</option>
-                    <option value="10">Sophomore (10th)</option>
-                    <option value="11">Junior (11th)</option>
-                    <option value="12">Senior (12th)</option>
+                    <option value="9">First year (1st)</option>
+                    <option value="10">Second Year (2nd)</option>
+                    <option value="11">3third year (3rd)</option>
+                    <option value="12">fourth year(4th)</option>
                     <option value="Staff">Faculty / Staff</option>
                   </select>
                 </div>
