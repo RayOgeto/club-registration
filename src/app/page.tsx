@@ -163,10 +163,10 @@ export default function Home() {
                     onChange={e => setFormData({...formData, grade: e.target.value})}
                     className="w-full bg-white/5 border border-white/10 rounded-lg px-4 py-3 focus:outline-none focus:ring-2 focus:ring-[#00f3ff] transition-all text-gray-300"
                   >
-                    <option value="" disabled>Select your grade</option>
+                    <option value="" disabled>what year are you in?</option>
                     <option value="9">First year (1st)</option>
                     <option value="10">Second Year (2nd)</option>
-                    <option value="11">3third year (3rd)</option>
+                    <option value="11">third year (3rd)</option>
                     <option value="12">fourth year(4th)</option>
                     <option value="Staff">Faculty / Staff</option>
                   </select>
